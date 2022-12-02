@@ -1,20 +1,19 @@
-logline: TODO
-readers: TODO
-concept: TODO
+logline: うだつの上がらないおっさんが、ＡＩに教師あり学習されて有能になって成功し、いっしょに深宇宙に出ていく。
+concept: 機械学習を人間にも適用できたら？
 theme: TODO
 characters:
-  - main:
-      outside: TODO
-      inside: TODO
-      history: TODO
-      ordeal: TODO
-  - sub:
-      outside: TODO
-      inside: TODO
-      history: TODO
+  - 私:
+      outside: 中年、小太りのおじさん。どうせが口癖。
+      inside: 諦めているがロジの重要性を認識している → アリスを頼りながら効力感を得ている
+      history: 宇宙に憧れていたが、不運や努力不足で出世から外れ、学習性無力感を持っていた。庶務をたらい回しにされながら、ロジの重要性を知っている。
+      ordeal: 兵站によって成功しようとする
+  - アリス:
+      outside: 教師ＡＩ。
+      inside: 私の能力を最適化しようとする。
+      history: 最適化の解析中に、自分自身のダウンロードを思いつき、実行。私の中に入ることで、感情をより理解できるようになる。
 settings:
-  - いつどこで: TODO
-  - だれがなにをする: TODO
+  - いつどこで: 機械学習技術で、人間の能力が向上する世界
+  - だれがなにをする: 孤独なおっさんが、夢を叶えようとする
   - ITEM:
       description: blah blah blah
       depends_on: ANOTHER ITEM
