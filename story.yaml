@@ -1,0 +1,20 @@
+logline: TODO
+readers: TODO
+concept: TODO
+theme: TODO
+characters:
+  - main:
+      outside: TODO
+      inside: TODO
+      history: TODO
+      ordeal: TODO
+  - sub:
+      outside: TODO
+      inside: TODO
+      history: TODO
+settings:
+  - いつどこで: TODO
+  - だれがなにをする: TODO
+  - ITEM:
+      description: blah blah blah
+      depends_on: ANOTHER ITEM
