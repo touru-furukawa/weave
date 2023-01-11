@@ -27,7 +27,8 @@
   },
   "scripts": {
     "start": "next-remote-watch story.md -r next-app",
-    "checkin": "git commit --allow-empty -m 'Start working'"
+    "checkin": "git commit --allow-empty -m 'Start working'",
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
