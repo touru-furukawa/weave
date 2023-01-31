@@ -13,6 +13,25 @@ function main() {
   // write file
   fs.writeFileSync('story-snapshot.txt', text);
 
+  // count
+  console.log(countCharacters(story.content))
+
+}
+
+function countCharacters(content) {
+  const count = content.children
+    .filter(node => node.type == 'paragraph')
+
+    // count for each paragraph
+    .reduce((count, node) => {
+      count += (node.children || [])
+        .filter(node => node.type == 'text')
+        // count inner texts
+        .reduce((count, node) => count + node.value.length, 0)
+      return count
+    }, 0)
+
+  return count
 }
 
 main()
