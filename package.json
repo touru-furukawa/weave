@@ -18,12 +18,12 @@
     "remark-extract-frontmatter": "^3.2.0",
     "remark-frontmatter": "^4.0.1",
     "remark-stringify": "^10.0.2",
-    "unified": "^10.1.2",
-    "unist-util-inspect": "^7.0.0",
-    "yaml": "^1.10.2",
     "textlint": "^12.2.1",
     "textlint-rule-preset-ja-spacing": "^2.2.0",
-    "textlint-rule-preset-japanese": "^7.0.0"
+    "textlint-rule-preset-japanese": "^7.0.0",
+    "unified": "^10.1.2",
+    "unist-util-inspect": "^7.0.0",
+    "yaml": "^1.10.2"
   },
   "scripts": {
     "start": "next-remote-watch story.md -r next-app",
