@@ -34,6 +34,14 @@
   - タイトルを分かりやすく
   - いつ、どこで、何が起こっているのかを分かりやすくする。e.g. 時系列のいったりきたりを減らす。章に名前をつける。倒叙にする。
 
+## 2023-04-08
+
+- [x] copy sequences on story.md
+- [x] reorganize contents
+- [x] update seqs
+- [x] update act
+
+
 ## 2023-04-06
 
 C パートのシーケンスを調整する。
